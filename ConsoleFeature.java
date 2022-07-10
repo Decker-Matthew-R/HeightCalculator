@@ -2,6 +2,9 @@ import java.util.*;
 
 public class ConsoleFeature {
     
+    byte feet;
+    byte inches;
+    
     //Method Creates User Input Option for Feet
     public byte UserInputFeet() {
 
@@ -26,7 +29,7 @@ public class ConsoleFeature {
 
         //Read User Input
         byte inches = myObj.nextByte();
-
+        
         return inches;
     }
 }
