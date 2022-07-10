@@ -16,7 +16,7 @@ public class HeightCalculator {
 
         //Produce Final result of height in inches
         Calculations mainDriver3 = new Calculations();
-        byte finalProduct = mainDriver3.CalculateHeightInInches();
+        byte finalProduct = mainDriver3.CalculateHeightInInches(feet, inches);
 
         System.out.println("The height in inches is = " + finalProduct);
 
