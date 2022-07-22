@@ -12,7 +12,6 @@ public class HeightCalculator {
             byte inches = consoleDriver2.UserInputInches();
 
            
-            
             //Call ConfirmationFeature Class and ConfirmEntry method to recap user input
             ConfirmationFeature confirmationDriver1 = new ConfirmationFeature();
             String answer = confirmationDriver1.ConfirmEntry(feet, inches);
@@ -31,10 +30,7 @@ public class HeightCalculator {
             Calculations calculationsDriver1 = new Calculations();
             byte finalProduct = calculationsDriver1.CalculateHeightInInches(feet, inches);
 
-            System.out.println("The height in inches is = " + finalProduct);
-
-            
-    
+            System.out.println("The height in inches is = " + finalProduct + " inches.5");
         
         }
 }
